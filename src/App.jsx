@@ -3,6 +3,7 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import Main from './components/Main/Main';
+import Main2 from './components/Main2/Main2';
 function App() {
   const menu = ["Home", "Details", "Boh", "Ciao"];
   const users = [
@@ -30,8 +31,8 @@ function App() {
     <>
       <Navbar menu={menu} />
       <Main utenti={users} />
+      <Main2 />
       <Footer />
-
     </>
   );
 }
