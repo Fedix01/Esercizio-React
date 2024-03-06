@@ -1,0 +1,9 @@
+nav {
+    background-color: lightgray;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+}
